@@ -60,6 +60,7 @@ def test_contract_validates_royalties():
     with pytest.raises(Exception):
         Contract(author, book, date, "Royalties")
 
+# 7
 def test_author_has_contracts():
     """Test Author class has method contracts() that returns a list of its contracts"""
     author = Author("Name")
